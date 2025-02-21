@@ -33,6 +33,7 @@ jobs:
       - name: Install dependencies and build
         run: |
           npm install
+          npm audit fix
           npm run build
 
       - name: Setup Pages
