@@ -33,7 +33,6 @@ jobs:
       - name: Install dependencies and build
         run: |
           yarn install --frozen-lockfile
-          yarn audit fix
           yarn build
 
       - name: Setup Pages
